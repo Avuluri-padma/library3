@@ -1,17 +1,5 @@
-def sum(a,b)
-{ 
-  echo "The sum of ${a} and ${b} is ${a+b}"
- }
- def sub(a,b)
- {
-   echo "The difference of ${a} and ${b} is ${a-b}"
- }
-def mul(a,b)
+def newDownload(repo)
 {
- echo "The product of ${a} and ${b} is ${a*b}"
- }
- def div(a,b)
- {
- echo "The div of ${a} and ${b} is ${a/b}"
- }
+  git"https://github.com/intelliqittrainings/${repo}"
+}
   
